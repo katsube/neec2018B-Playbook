@@ -111,7 +111,7 @@
     #-- php.ini編集 --#
     - name: Edit php.ini
       lineinfile: >-
-        dest='/opt/remi/php56/root/etc/php.ini'
+        dest='/opt/remi/php72/root/etc/php.ini'
         state=present
         backrefs=yes
         backup=yes
