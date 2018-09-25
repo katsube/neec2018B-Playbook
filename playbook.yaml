@@ -93,7 +93,7 @@
 
     #-- ln -s /usr/bin/php56 /usr/bin/php--#
     - name: Make symlink for PHP
-      file: state=link src=/usr/bin/php56 dest=/usr/bin/php
+      file: state=link src=/usr/bin/php72 dest=/usr/bin/php
 
     #-- モジュールは別タスクで入れる --#
     - name: install PHP Module
